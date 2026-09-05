@@ -20,3 +20,7 @@ class RequestTimeout extends AppExceptions {
 class ServerExceptions extends AppExceptions {
   ServerExceptions(String message) : super(message, "Server timeout");
 }
+
+class InvalidUrlExcepion extends AppExceptions {
+  InvalidUrlExcepion(String message) : super(message, "Invalid Url");
+}
